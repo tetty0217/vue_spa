@@ -1,35 +1,21 @@
-# vue-parcel
-## 1. what
-1. parcelによってmodule管理を丸投げして環境構築するぜ！
-2. 今回の例ではローダーとしてbabelを経由しているのでトランスパイルもおまかせ！
-### 構造
-* public/のhtmlでsrcにあるファイルを集束させてくれ！
-* distにまるっと吐き出されるぞ！ファイル名は気にしないでくれ！
-### 前提
-* nodeが入っていること（npm叩ける？）
-* yarn入ってるよね？
-## 2. first
-* 依存データ（パッケージ）のインストール
-> cd vue-parcel
+# vue_spa
 
-> yarn
-## 3. second
-* parcelの確認
-> parcel 
-* エラーについては[公式](https://parceljs.org/getting_started.html)を見てくれよな！
-## 4. third
-* npm経由でparcel実行の確認
-> npm start
+> A Vue.js project
 
-## デフォルトで入る子供達
-[vue.js](https://jp.vuejs.org/index.html)
+## Build Setup
 
-[vuex](https://router.vuejs.org/en/)
+``` bash
+# install dependencies
+npm install
 
-[vue-router](https://vuex.vuejs.org/en/)
+# serve with hot reload at localhost:8080
+npm run dev
 
-[sass](https://sass-lang.com/)
+# build for production with minification
+npm run build
 
-[axios](https://github.com/axios/axios)
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-[babel](https://babeljs.io/)
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
