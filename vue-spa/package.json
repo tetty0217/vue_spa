@@ -1,0 +1,36 @@
+{
+  "name": "vue-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./public/index.html",
+    "watch": "parcel watch ./public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetty0217/vue-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetty0217/vue-parcel/issues"
+  },
+  "homepage": "https://github.com/tetty0217/vue-parcel#readme",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.9.0",
+    "npm": "^6.0.0",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-vue": "^1.5.0",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16",
+    "vuex": "^3.0.1"
+  },
+  "dependencies": {}
+}
