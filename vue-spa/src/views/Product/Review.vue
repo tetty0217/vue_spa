@@ -1,16 +1,12 @@
 <template>
-  <div class="product">
-    <h1>{{ detail.name }}</h1>
-    <nav class="nav">
-      <router-link :to="{ name: 'product-home' }">Product information</router-link>
-      <router-link :to="{ name: 'product-review' }">Review</router-link>
-    </nav>
-    <router-view />
+  <div class="review-list">
+    <h1>Review list</h1>
   </div>
 </template>
 <script>
   import {mapGetters, mapActions} from 'vuex'
-  import store from '../store/product'
+  import store from '../../store/product'
+
   export default {
     props: {
       id: Number
@@ -22,7 +18,7 @@
     watch: {
       id: {
         handler() {
-          store.dispatch('load', (this.id))
+          store.dispatch('load', this.id)
         },
         immediate: true
       }
